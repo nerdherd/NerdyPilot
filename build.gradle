@@ -44,6 +44,10 @@ nativeConfig.dependencies.add wpilibTools.deps.wpilib("ntcore")
 nativeConfig.dependencies.add wpilibTools.deps.cscore()
 
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
 
     implementation wpilibTools.deps.wpilibJava("wpiutil")
@@ -56,6 +60,7 @@ dependencies {
 
     implementation wpilibTools.deps.wpilibJava("cscore")
 
+    implementation "io.github.spair:imgui-java-app:1.86.7"
 
     implementation group: "com.fasterxml.jackson.core", name: "jackson-annotations", version: wpi.versions.jacksonVersion.get()
 

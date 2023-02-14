@@ -1,5 +1,3 @@
-
-
 import edu.wpi.first.networktables.DoubleSubscriber;
 
 import edu.wpi.first.networktables.NetworkTable;
